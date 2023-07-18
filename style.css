@@ -1,0 +1,122 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: lightyellow;
+  margin: 0;
+  padding: 0;
+}
+
+header img {
+  height: 150px;
+  width: 100px;
+}
+
+nav {
+  background-color: lightyellow;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  width: 200px;
+  text-align: center;
+}
+
+nav ul li h3 a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+nav ul li h3 a:visited {
+  color: skyblue;
+}
+
+nav ul li h3 a:hover {
+  color: blue;
+}
+
+header {
+  background-color: lightblue;
+  height: 200px;
+  background-image: url("../pictures/berel.jpg"), url("../pictures/berel.jpg");
+  background-size: 200px auto;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 1;
+  position: relative;
+}
+
+header h1 {
+  color: lightyellow;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.event-ideas {
+  background-color: #f9f9f9;
+  border: 7px groove lightblue;
+  margin-top: 7px;
+  padding: 10px;
+}
+
+.event-ideas p {
+  font-size: 18px;
+}
+
+.event-ideas li {
+  color: black;
+  font-family: georgia;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about ul li.youtube::before {
+  content: "\25B6";
+  margin-right: 8px;
+}
+
+.about ul li.instagram::before {
+  content: "\1F3F7";
+  margin-right: 8px;
+}
+
+.about,
+.about ul li a {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  color: red;
+}
+
+.about ul li a:visited {
+  color: lightcoral;
+}
+
+.about ul li a:hover {
+  color: green;
+  text-decoration: underline;
+}
