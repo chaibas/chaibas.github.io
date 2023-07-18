@@ -47,7 +47,7 @@ nav ul li h3 a:hover {
 header {
   background-color: lightblue;
   height: 200px;
-  background-image: url("berel.jpg"), url("berel.jpg");
+  background-image: url("./berel.jpg"), url("./berel.jpg");
   background-size: 200px auto;
   background-repeat: no-repeat, no-repeat;
   background-position: left, right;
